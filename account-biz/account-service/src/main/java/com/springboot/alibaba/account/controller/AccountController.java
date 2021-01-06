@@ -1,7 +1,7 @@
-package com.account.controller;
+package com.springboot.alibaba.account.controller;
 
-import com.account.response.AccountVO;
-import com.account.serivce.AccountService;
+import com.springboot.alibaba.account.response.AccountVO;
+import com.springboot.alibaba.account.serivce.AccountService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

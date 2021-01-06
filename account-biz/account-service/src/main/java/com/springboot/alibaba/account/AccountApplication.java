@@ -1,4 +1,4 @@
-package com.order;
+package com.springboot.alibaba.account;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @EnableDiscoveryClient
-public class OrderApplication {
+public class AccountApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OrderApplication.class, args);
+        SpringApplication.run(AccountApplication.class, args);
     }
 }

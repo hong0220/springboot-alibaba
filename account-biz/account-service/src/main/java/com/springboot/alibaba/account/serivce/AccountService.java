@@ -1,6 +1,6 @@
-package com.account.serivce;
+package com.springboot.alibaba.account.serivce;
 
-import com.account.response.AccountVO;
+import com.springboot.alibaba.account.response.AccountVO;
 import org.springframework.stereotype.Service;
 
 @Service

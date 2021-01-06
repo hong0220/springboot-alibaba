@@ -1,10 +1,10 @@
-package com.account.response;
+package com.springboot.alibaba.order.response;
 
-public class AccountVO {
+public class OrderVO {
 
     private Long id;
 
-    public AccountVO(Long id) {
+    public OrderVO(Long id) {
         this.id = id;
     }
 
