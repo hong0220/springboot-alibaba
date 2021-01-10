@@ -9,9 +9,10 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>account-biz</module>
+        <module>cloud-gateway</module>
         <module>order-biz</module>
         <module>product-biz</module>
-        <module>account-biz</module>
     </modules>
 
     <properties>
