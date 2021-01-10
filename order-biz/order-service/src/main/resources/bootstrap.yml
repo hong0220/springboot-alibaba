@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        enabled: true
+        server-addr: 127.0.0.1:8848
+        # 组，默认为 DEFAULT_GROUP
+        group: DEFAULT_GROUP
+        # 配置内容的数据格式，默认为 properties
+        file-extension: yml
+        # 对应 dev 环境
+#        namespace: 0c238242-d195-4ceb-bcf4-546e70b5fa12

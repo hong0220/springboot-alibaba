@@ -11,10 +11,9 @@
     <properties>
         <spring-boot.version>2.1.9.RELEASE</spring-boot.version>
         <spring-boot.cloud.version>Greenwich.SR2</spring-boot.cloud.version>
-
-<!--        <spring-boot.version>2.4.1</spring-boot.version>-->
-<!--        <spring-boot.cloud.version>2020.0.0</spring-boot.cloud.version>-->
-        <springcloud-alibaba.version>0.9.0.RELEASE</springcloud-alibaba.version>
+        <!--        <spring-boot.version>2.4.1</spring-boot.version>-->
+        <!--        <spring-boot.cloud.version>2020.0.0</spring-boot.cloud.version>-->
+        <springcloud-alibaba.version>2.1.0.RELEASE</springcloud-alibaba.version>
         <mysql.version>5.1.47</mysql.version>
         <mybatis-plus.version>3.1.1</mybatis-plus.version>
     </properties>
@@ -38,7 +37,7 @@
             </dependency>
 
             <dependency>
-                <groupId>org.springframework.cloud</groupId>
+                <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
                 <version>${springcloud-alibaba.version}</version>
                 <type>pom</type>
