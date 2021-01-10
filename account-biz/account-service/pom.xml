@@ -13,6 +13,15 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.fast.boot.microservice</groupId>
+            <artifactId>microservice-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fast.boot.microservice</groupId>
+            <artifactId>account-api</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>
@@ -42,11 +51,5 @@
         <!--            <groupId>com.baomidou</groupId>-->
         <!--            <artifactId>mybatis-plus-boot-starter</artifactId>-->
         <!--        </dependency>-->
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
     </dependencies>
 </project>
